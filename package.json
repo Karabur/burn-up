@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server§ --progress --colors --port 8090"
+    "dev": "webpack-dev-server --progress --colors --port 8090"
   },
   "author": "Anton Ulyanov",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.14"
+    "bluebird": "^2.9.14",
+    "react": "^0.13.3"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^0.2.4",
+    "jsx-loader": "^0.13.2",
+    "jsx-typescript": "^1.5.0-alpha.5",
     "webpack": "^1.7.3",
     "webpack-dev-server": "^1.7.0"
   }
